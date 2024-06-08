@@ -1,0 +1,5 @@
+numpy==1.21.2
+tensorflow==2.6.0
+transformers==4.11.3
+google-generativeai==0.1.0
+IPython==7.27.0
