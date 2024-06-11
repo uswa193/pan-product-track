@@ -1,0 +1,21 @@
+[debug] [2024-06-06T13:40:50.421Z] ----------------------------------------------------------------------
+[debug] [2024-06-06T13:40:50.425Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\LENOVO\AppData\Roaming\npm\node_modules\firebase-tools\lib\bin\firebase.js init
+[debug] [2024-06-06T13:40:50.425Z] CLI Version:   13.11.0
+[debug] [2024-06-06T13:40:50.426Z] Platform:      win32
+[debug] [2024-06-06T13:40:50.426Z] Node Version:  v18.16.0
+[debug] [2024-06-06T13:40:50.433Z] Time:          Thu Jun 06 2024 20:40:50 GMT+0700 (Indochina Time)
+[debug] [2024-06-06T13:40:50.434Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2024-06-06T13:40:50.444Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2024-06-06T13:40:50.445Z] > authorizing via signed-in user (c180d4kx0311@bangkit.academy)
+[info] 
+     ######## #### ########  ######## ########     ###     ######  ########
+     ##        ##  ##     ## ##       ##     ##  ##   ##  ##       ##
+     ######    ##  ########  ######   ########  #########  ######  ######
+     ##        ##  ##    ##  ##       ##     ## ##     ##       ## ##
+     ##       #### ##     ## ######## ########  ##     ##  ######  ########
+
+You're about to initialize a Firebase project in this directory:
+
+  D:\MSIB\pan-product-track
+

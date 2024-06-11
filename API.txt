@@ -1,0 +1,35 @@
+==Sign Up===
+URL :
+/signup
+
+Method
+POST 
+
+Request Body :
+username as string
+email as string
+password as string
+
+Response
+{
+    "error": "User already exists" 
+    "message": "User registered successfully"
+}
+
+
+==Log In===
+URL :
+/login
+
+Method
+POST 
+
+Request Body :
+email as string
+password as string
+
+Response
+{
+    "error": "Invalid email or password" 
+    "message": "Login successful"
+}
