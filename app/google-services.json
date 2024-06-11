@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "652326080996",
+    "project_id": "pan-project-425506",
+    "storage_bucket": "pan-project-425506.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:652326080996:android:e8dd875bc56b6319aef7f1",
+        "android_client_info": {
+          "package_name": "pan.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2ruF1OxGnkssvylqde5sCAlHZ1xsKukk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
