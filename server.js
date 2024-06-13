@@ -4,6 +4,7 @@ const session = require("express-session");
 const jwt = require("jsonwebtoken");
 const app = express();
 require('dotenv').config();
+const PORT = process.env.PORT || 8080;
 
 const admin = require("firebase-admin");
 const credential =require("./config/serviceAccountKey.json");
@@ -177,7 +178,6 @@ app.get('/journal/:userId', async (req, res) => {
 });
 
 
-const PORT = process.env.PORT || 3000;
 app.listen(PORT,() => {
     console.log(`Server is running on PORT ${PORT}.`)
 });
