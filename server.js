@@ -4,7 +4,7 @@ const session = require("express-session");
 const jwt = require("jsonwebtoken");
 const app = express();
 require('dotenv').config();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3000;
 
 const admin = require("firebase-admin");
 const credential =require("./config/serviceAccountKey.json");
@@ -174,6 +174,56 @@ app.get('/journal/:userId', async (req, res) => {
         res.status(200).json({ journals: journals });
     } catch (error) {
         res.status(500).json({ error: error.message });
+    }
+});
+
+// send chat
+app.post('/chat', async (req, res) => {
+    const { message } = req.body;
+
+    if (!req.session.userId) {
+        return res.status(401).json({ error: 'Anda belum Login' });
+    }
+
+    const userId = req.session.userId;
+
+    try {
+        const response = await fetch(`http://localhost:8000/chat/${userId}`, {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/json"
+              },
+            body: JSON.stringify({text:message})
+        });
+
+        if (!response.ok) {
+            throw new Error(`Server error: ${response.statusText}`);
+        }
+
+        const data = await response.json();
+
+        // Send the same response back to the client
+        res.status(201).json(data);
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+});
+
+app.get('/recommend-activity', async (req, res) => {
+    if (!req.session.userId) {
+        return res.status(401).json({ error: 'Anda belum Login' });
+    }
+
+    const userId = req.session.userId;
+
+    try {
+        const response = await fetch(`http://localhost:8000/recommend_activity/${userId}`)
+        const result = await response.json();
+
+        res.status(201).json(result);
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+        
     }
 });
 
