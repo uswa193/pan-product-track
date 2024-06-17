@@ -77,5 +77,5 @@ The model was trained on a dataset specifically designed for emotion classificat
 -**Loss:** 0.9135 
 -**Accuracy:** 0.6930 
 
-![Training result graph]([https://raw.githubusercontent.com/username/repository/branch/path/to/logo.png](https://github.com/uswa193/pan-product-track/blob/ml-model/Emotion%20Classification/Training%20result%20graph.png))
+![Training result graph](Emotion Classification/Training result graph.png)
 
