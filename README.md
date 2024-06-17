@@ -1,7 +1,7 @@
 # Emotion Classification 
 
 This model is a fine-tuned version of IndoBERT model and designed for emotion classification. in Indonesian text It classifies input text into five emotion categories: Happy, Sad, Angry, Fear, and Love
-This modelcard aims to be a base template for new models. It has been generated using [this raw template](https://github.com/huggingface/huggingface_hub/blob/main/src/huggingface_hub/templates/modelcard_template.md?plain=1).
+
 
 ## Model Details
 
