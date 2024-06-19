@@ -3,6 +3,7 @@ const bcrypt = require("bcrypt");
 const session = require("express-session");
 const jwt = require("jsonwebtoken");
 const app = express();
+const fetch = require("node-fetch");
 require('dotenv').config();
 const PORT = process.env.PORT || 3000;
 
@@ -21,8 +22,36 @@ app.use(session({
     secret: process.env.SESSION_SECRET,
     resave: false,
     saveUninitialized: true,
-    cookie: { secure: false } // Set to true if using HTTPS
+    cookie: {secure: process.env.NODE_ENV === 'production'} // Set to true if using HTTPS
 }));
+
+const revokedTokens = new Set();
+
+// Middleware untuk memverifikasi token JWT
+function authenticateToken(req, res, next) {
+    const authHeader = req.headers['authorization'];
+    const token = authHeader && authHeader.split(' ')[1];
+    if (token == null) return res.status(401).json({ error: 'Anda belum login' });
+        // Check if the token is revoked
+        if (revokedTokens.has(token)) {
+            return res.status(403).json({ error: 'Token tidak valid atau sudah kedaluwarsa' });
+        }
+
+    jwt.verify(token, process.env.ACCESS_TOKEN_SECRET, (err, user) => {
+        if (err) return res.status(403).json({ error: 'Token tidak valid atau sudah kedaluwarsa' });
+        req.user = user;
+        next();
+    });
+}
+
+// Middleware untuk memastikan user tidak bisa akses fitur setelah logout
+function ensureLoggedOut(req, res, next) {
+    if (req.session.userId) {
+        return res.status(401).json({ error: 'Anda harus login untuk mengakses fitur ini' });
+    }
+    next();
+}
+
 
 // Signup endpoint
 app.post('/signup', async (req, res) => {
@@ -107,16 +136,25 @@ app.post('/login', async (req, res) => {
             return res.status(400).json({ error: 'Email/password tidak valid' });
         }
 
+         // Buat token JWT
+         const token = jwt.sign({ userId: userId, email: email }, process.env.ACCESS_TOKEN_SECRET, { expiresIn: '30d' });
+
+        // Simpan userId di sesi (session)
         req.session.userId = userId;
 
-        res.json({ message: 'Login berhasil!', userId: userId });
-    } catch (error) {
-        res.status(500).json({ error: error.message });
-    }
-});
+        res.json({ message: 'Login berhasil!', token: token });
+     } catch (error) {
+         res.status(500).json({ error: error.message });
+     }
+ });
 
 // Logout endpoint
 app.post('/logout', (req, res) => {
+    const authHeader = req.headers['authorization'];
+    const token = authHeader && authHeader.split(' ')[1];
+    if (token) {
+        revokedTokens.add(token); // Tambahkan token ke daftar pembatalan
+    }
     req.session.destroy(err => {
         if (err) {
             return res.status(500).json({ error: 'Logout failed' });
@@ -125,19 +163,17 @@ app.post('/logout', (req, res) => {
     });
 });
 
+// Secure endpoints
+app.get('/secure-endpoint', authenticateToken, (req, res) => {
+    res.json({ message: 'Anda terautentikasi!' });
+});
 
 // Add Journal endpoint
-app.post('/journal/add', async (req, res) => {
+app.post('/journal/add', authenticateToken, async (req, res) => {
     const { note, date, emotion } = req.body;
-
-    if (!req.session.userId) {
-        return res.status(401).json({ error: 'Anda belum Login' });
-    }
-
-    const userId = req.session.userId;
+    const userId = req.user.userId;
 
     try {
-        // Create journal document in Firestore
         const journalDoc = {
             note: note,
             date: new Date(date),
@@ -155,7 +191,7 @@ app.post('/journal/add', async (req, res) => {
 
 
 // Get Journals endpoint
-app.get('/journal/:userId', async (req, res) => {
+app.get('/journal/:userId',authenticateToken, async (req, res) => {
     const { userId } = req.params;
 
     try {
@@ -168,7 +204,21 @@ app.get('/journal/:userId', async (req, res) => {
 
         let journals = [];
         journalSnapshot.forEach(doc => {
-            journals.push({ id: doc.id, ...doc.data() });
+            const data = doc.data();
+            // Convert Firestore timestamp to JavaScript Date object
+            const jsDate = data.date.toDate();
+            // Format the date as MM-DD-YYYY
+            const formattedDate = `${jsDate.getMonth() + 1}-${jsDate.getDate()}-${jsDate.getFullYear()}`;
+
+
+            journals.push({
+                id: doc.id,
+                date: formattedDate,
+                note: data.note,
+                emotion: data.emotion,
+                userId: data.userId,
+                createdAt: data.createdAt
+            });
         });
 
         res.status(200).json({ journals: journals });
@@ -178,22 +228,18 @@ app.get('/journal/:userId', async (req, res) => {
 });
 
 // send chat
-app.post('/chat', async (req, res) => {
+app.post('/chat', authenticateToken, async (req, res) => {
     const { message } = req.body;
+    const userId = req.user.userId;
 
-    if (!req.session.userId) {
-        return res.status(401).json({ error: 'Anda belum Login' });
-    }
-
-    const userId = req.session.userId;
 
     try {
-        const response = await fetch(`http://localhost:8000/chat/${userId}`, {
+        const response = await fetch(`https://pan-app-bjukyhsk7q-et.a.run.app/chat/${userId}`, {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
-              },
-            body: JSON.stringify({text:message})
+            },
+            body: JSON.stringify({ text: message })
         });
 
         if (!response.ok) {
@@ -209,15 +255,11 @@ app.post('/chat', async (req, res) => {
     }
 });
 
-app.get('/recommend-activity', async (req, res) => {
-    if (!req.session.userId) {
-        return res.status(401).json({ error: 'Anda belum Login' });
-    }
-
+app.get('/recommend-activity', authenticateToken, async (req, res) => {
     const userId = req.session.userId;
 
     try {
-        const response = await fetch(`http://localhost:8000/recommend_activity/${userId}`)
+        const response = await fetch(`https://pan-app-bjukyhsk7q-et.a.run.app/recommend_activity/${userId}`)
         const result = await response.json();
 
         res.status(201).json(result);
@@ -227,7 +269,85 @@ app.get('/recommend-activity', async (req, res) => {
     }
 });
 
+// Endpoint to get the last classified emotion
+app.get('/classify_emotion', authenticateToken, async (req, res) => {
+    const userId = req.session.userId;
+
+    try {
+        const response = await fetch(`https://pan-app-bjukyhsk7q-et.a.run.app/classify_emotion/${userId}`)
+        const result = await response.json();
+
+        res.status(201).json(result);
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+});
+
+
+// Edit Profile endpoint
+app.post('/profile/edit', authenticateToken, async (req, res) => {
+    const { username, email, password } = req.body;
+    const userId = req.session.userId;
+
+    try {
+        // Validasi data yang diterima
+        if (!username || !email || !password) {
+            return res.status(400).json({ error: 'Harap masukkan username, email, dan password' });
+        }
+
+        // Validasi email
+        const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if (!emailRegex.test(email)) {
+            return res.status(400).json({ error: 'Harap masukkan email yang valid!' });
+        }
+
+        // Cek apakah email sudah digunakan oleh pengguna lain
+        const userRef = db.collection('users').where('email', '==', email);
+        const userSnapshot = await userRef.get();
+        if (!userSnapshot.empty) {
+            // Jika email sudah ada, pastikan tidak sama dengan pengguna saat ini
+            let emailExists = false;
+            userSnapshot.forEach(doc => {
+                if (doc.id !== userId) {
+                    emailExists = true;
+                }
+            });
+            if (emailExists) {
+                return res.status(400).json({ error: 'Email sudah digunakan oleh pengguna lain' });
+            }
+        }
+
+        // Hash password baru jika ada perubahan password
+        const hashedPassword = await bcrypt.hash(password, 10);
+
+        // Update data pengguna di Firestore
+        const userDocRef = db.collection('users').doc(userId);
+        await userDocRef.update({
+            username: username,
+            email: email,
+            password: hashedPassword,  // Update password yang ter-hash
+        });
+
+        res.status(200).json({ message: 'Profil berhasil diperbarui' });
+    } catch (error) {
+        res.status(500).json({ error: error.message });
+    }
+});
+
+// Middleware untuk menangani kesalahan 404
+app.use((req, res, next) => {
+    res.status(404).json({ error: 'Tidak ditemukan' });
+});
+
+// Middleware untuk menangani kesalahan server (500)
+app.use((err, req, res, next) => {
+    console.error(err.stack);
+    res.status(500).json({ error: 'Terjadi kesalahan pada server' });
+});
+
+console.log(`PORT environment variable: ${process.env.PORT}`);
+console.log(`Server will listen on PORT: ${PORT}`);
 
 app.listen(PORT,() => {
-    console.log(`Server is running on PORT ${PORT}.`)
+    console.log(`Server is running on PORT ${PORT}.`);
 });
