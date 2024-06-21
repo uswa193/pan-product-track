@@ -7,7 +7,7 @@
 ## Team Members
 
 | Nama                          | ID            | Path               |
-| ------------------------------|:-------------:| ------------------:|
+| ------------------------------|:-------------:| :-----------------:|
 | Theresia Agatha Trixie        | M006D4KX2224  | Machine Learning   |
 | Ifan Fadilah                  | M006D4KY2618  | Machine Learning   |
 | Nathaniel                     | M004D4KY2691  | Machine Learning   |
