@@ -1,6 +1,6 @@
 ![logo pan](https://github.com/uswa193/pan-product-track/assets/88176934/ec0cb8d2-a076-486d-a543-2de5a30577bc)
 
-<div style="text-align: center;">
+<div align="center">
   <h1><strong>PAN</strong></h1>
   <h2><strong>Bangkit 2022 Capstone Team: C241-PS465</strong></h2>
   <h2><strong>Team Members</strong></h2>
@@ -15,3 +15,5 @@
 | Hananda Aisya Maharani        | C180D4KX1320  | Cloud Computing    |
 | Stanley Agape Sihotang        | A006D4KY3979  | Mobile Development |
 | Ghiyats Ibnu Syahied          | A009D4KY4276  | Mobile Development |
+
+
