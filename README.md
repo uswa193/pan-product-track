@@ -3,7 +3,7 @@
 <div align="center">
   <h1><strong>PAN</strong></h1>
   <h2><strong>A Virtual Solution for Emotion Management</strong></h2>
-  <h2><strong>Bangkit 2022 Capstone Team: C241-PS465</strong></h2>
+  <h2><strong>Bangkit 2024 Capstone Team: C241-PS465</strong></h2>
 </div>
 
 ## Team Members
