@@ -1,0 +1,3 @@
+com.dicoding.picodiploma.pan.test
+style WhiteBackgroundDialogTheme
+style WhiteBackgroundTheme

@@ -1,0 +1,66 @@
+[
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-mergeDebugResources-53:\\layout\\item_message_pan.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-main-56:\\layout\\item_message_pan.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-mergeDebugResources-53:\\layout\\fragment_dashboard.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-main-56:\\layout\\fragment_dashboard.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-mergeDebugResources-53:\\layout\\fragment_journal.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-main-56:\\layout\\fragment_journal.xml"
+    },
+    {
+        "merged": "com.dicoding.picodiploma.pan.app-mergeDebugResources-53:/layout/activity_condition.xml",
+        "source": "com.dicoding.picodiploma.pan.app-main-56:/layout/activity_condition.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-mergeDebugResources-53:\\layout\\fragment_profile.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-main-56:\\layout\\fragment_profile.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-mergeDebugResources-53:\\layout\\activity_main.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-main-56:\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-mergeDebugResources-53:\\layout\\activity_welcome.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-main-56:\\layout\\activity_welcome.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-mergeDebugResources-53:\\layout\\activity_condition.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-main-56:\\layout\\activity_condition.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-mergeDebugResources-53:\\layout\\activity_detail_journal.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-main-56:\\layout\\activity_detail_journal.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-mergeDebugResources-53:\\layout\\activity_splash.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-main-56:\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-mergeDebugResources-53:\\layout\\activity_login.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-main-56:\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-mergeDebugResources-53:\\layout\\activity_list_journal.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-main-56:\\layout\\activity_list_journal.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-mergeDebugResources-53:\\layout\\item_journal.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-main-56:\\layout\\item_journal.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-mergeDebugResources-53:\\layout\\activity_signup.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-main-56:\\layout\\activity_signup.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-mergeDebugResources-53:\\layout\\fragment_chat.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-main-56:\\layout\\fragment_chat.xml"
+    },
+    {
+        "merged": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-mergeDebugResources-53:\\layout\\item_message_user.xml",
+        "source": "C:\\Program Files\\Android\\Android Studio\\jbr\\bin\\19\\daemon\\8.0\\com.dicoding.picodiploma.pan.app-main-56:\\layout\\item_message_user.xml"
+    }
+]

@@ -1,0 +1,6 @@
+com.dicoding.picodiploma.pan.test.app-jetified-annotation-experimental-1.4.0-0 C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\74eca582dffc7f3dff7b36bd713b46cb\transformed\jetified-annotation-experimental-1.4.0\res
+com.dicoding.picodiploma.pan.test.app-jetified-core-1.5.0-1 C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\e21bb6f31f9d43e5c89d6e062b56e4ca\transformed\jetified-core-1.5.0\res
+com.dicoding.picodiploma.pan.test.app-androidTest-2 C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\build\generated\res\resValues\androidTest\debug
+com.dicoding.picodiploma.pan.test.app-mergeDebugAndroidTestResources-3 C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\merged.dir
+com.dicoding.picodiploma.pan.test.app-mergeDebugAndroidTestResources-4 C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\build\intermediates\incremental\debugAndroidTest\mergeDebugAndroidTestResources\stripped.dir
+com.dicoding.picodiploma.pan.test.app-merged_res-5 C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\build\intermediates\merged_res\debugAndroidTest

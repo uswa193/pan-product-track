@@ -1,0 +1,537 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:2:1-46:12
+INJECTED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:2:1-46:12
+MERGED from [androidx.databinding:viewbinding:8.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\0c65c03a7599157216a8ec2ea34b401c\transformed\jetified-viewbinding-8.1.0\AndroidManifest.xml:2:1-7:12
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a87a3b753b9754c1d80641950a6cffc4\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:15:1-38:12
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\f84196ca26928fc34d22e6d286ec3f12\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:2:1-18:12
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\6911877ca56b59a38a0c3c93029bd4a4\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:15:1-41:12
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\460f4d619a0831bf6d624d1d6552d3d7\transformed\jetified-datastore-preferences-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\05ff5e320e96835b1afd5c7410ad7c19\transformed\jetified-datastore-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.navigation:navigation-common:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\6670eeaf383c135edca1cc382e46596b\transformed\navigation-common-2.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-common-ktx:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\eea5afc04d8c00af58239caa28608b0a\transformed\navigation-common-ktx-2.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a08cfef57a4dcb0e2890d81a3bbd13f5\transformed\navigation-runtime-2.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\5fe74ac758297af92f0b56553dc1a0eb\transformed\navigation-runtime-ktx-2.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\161cb04bba9e563bf33296f28c2b60f0\transformed\navigation-fragment-2.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\1d9673db0a35699ff8cafb1391d809e0\transformed\navigation-fragment-ktx-2.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui-ktx:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\2d7d393f6bc5d2fe1e96f6e512bd4241\transformed\navigation-ui-ktx-2.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.navigation:navigation-ui:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\1bb2a4665e284f3bc8a3f7e2b47dd353\transformed\navigation-ui-2.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.google.android.material:material:1.9.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\beaecc9d48e81ba89767d48befcf7f9c\transformed\material-1.9.0\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\ba3dc652d2a2da01a98c24d858c52c96\transformed\constraintlayout-2.1.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\25ee1406be50b21bfe16ca37f68efb35\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\c0d2fc3d4feadc677c42267f31514445\transformed\appcompat-1.6.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a28239cc1dd3982ca86cc33052ee03b5\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\9659bc5484bb556882d7c827f4f06ba5\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\e39c48a1bd6f9d9a84fafcaeee696a42\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:15:1-23:12
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\35766ba97ce3e649419559f460a5c60b\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\1f55f61a439417bb645b2c8f049a188d\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a3deca5598a7488f85e18d4e65167bf7\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:2:1-10:12
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\aef65314d54dc608dd8e21abcb1703a5\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\f106ad32256d327d1250e073800756d8\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:16:1-26:12
+MERGED from [androidx.fragment:fragment:1.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\fbb59be52750d821234f3dd231737393\transformed\fragment-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.fragment:fragment-ktx:1.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\7a37a973002b46def3a7d19cb643cf9b\transformed\jetified-fragment-ktx-1.6.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity-ktx:1.9.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\7eb7033be2e0b4e52e24c73e4baab56f\transformed\jetified-activity-ktx-1.9.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.activity:activity:1.9.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\c21de55553baa240087b282f0dc4a763\transformed\jetified-activity-1.9.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\66694220ce89c985676b6b6f0ad82153\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\38f2e3cabd735e65fb701e4194c8b5af\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\04d6a9a135e5e87c319e20b99ac2fbb4\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a8a37703ade5cf61a8260cf41378c6eb\transformed\drawerlayout-1.1.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\aae91345b8697b339fdf17e841628d62\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\69785b496a62a237ff19cf6288e6bdae\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\8742cccbcee47a76715212c43da74590\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\d283b24e2ecb85da2db140797b2c4f54\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\eb73c8b08f336f6a27a396d958eb5bf0\transformed\media-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\7af3552a117d60b00745226069612067\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\f50d117eaa1625920a4d47453d54a3bf\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\b55f159d3eea6b77fcaad3e58fca526a\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\0d5bc53360795c9ac9b820e460e812d7\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.customview:customview:1.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\bb602cecc2f9d601d86b498557ee6176\transformed\customview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\0c7c39df91819dab0de24476132daf33\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\0bf4c53bc7105cc6c53a764df9b67ac3\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\04cab5fe74cf2ab66da8e091e24e4235\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\19d87e6391cc9ed4a04889e83a5b9db6\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\8f800cc513ddc82b4ac1e7d118b8261a\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\7b284f8edacf8f89b7219d4a209d872d\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\ef738f7e3efd4ac7b1814f35e52b2ef2\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:17:1-35:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\2ac45f46ef6e3bb343d0dbfe5a6d7d9c\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a345e59902e867866a3fa46e8b426803\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\d2ec49efd4491d29d1b1b4cb253a8903\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\26f272bbabea5372ca266a243d8a662a\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\7af8725918ffcb97d251972648aac70f\transformed\jetified-core-ktx-1.13.0\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\793f7bbffd488d6048f64ab562d60840\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\c5c55c272026b014e5cd0df27d2d6561\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.4.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\542adcf040fcebf37208d38e7cbda306\transformed\transition-1.4.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.window:window:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\792189a2d6e07d1734445c5778b04c2d\transformed\jetified-window-1.0.0\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.core:core:1.13.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\94827d74ee8f588af7d1a337c27f40a9\transformed\core-1.13.0\AndroidManifest.xml:17:1-30:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\c32dfb4c8c518b3ce2efa5c4c01ef0f6\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\e1ac1781f636bff912bf6baf5f4b2fda\transformed\jetified-lifecycle-livedata-ktx-2.6.2\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a9740145088730b23830c6c32f56cb2e\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\7df5a6849eb7bfb50a1ffd70b3ed604a\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:17:1-55:12
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\d5a03fd48a91147e9c25abaa2fd44fe3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a2a26d71e2aa105d09e92583d61011b6\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\0e8f22bef4ab64dd727c9ecce9272396\transformed\jetified-firebase-components-18.0.0\AndroidManifest.xml:15:1-20:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\e940ebb240c33d15b87307a47022ef22\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a647aeeb20885f3628e84bd934278897\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\17a3d0467e36d6ff93ed6d3c68723b4a\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\3825c569ac713fd73e8ce08035fda99f\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a74729029d3eb0f06236d966a52f0f2c\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\deae65c476bf3f27565dbfb925bcdf3e\transformed\core-runtime-2.2.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\74eca582dffc7f3dff7b36bd713b46cb\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:2:1-7:12
+	package
+		INJECTED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:2:11-69
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:4:5-67
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a87a3b753b9754c1d80641950a6cffc4\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:23:5-67
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a87a3b753b9754c1d80641950a6cffc4\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:23:5-67
+	android:name
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:4:22-64
+application
+ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:7:5-44:19
+INJECTED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:7:5-44:19
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a87a3b753b9754c1d80641950a6cffc4\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a87a3b753b9754c1d80641950a6cffc4\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:25:5-36:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\f84196ca26928fc34d22e6d286ec3f12\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\f84196ca26928fc34d22e6d286ec3f12\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:8:5-16:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\6911877ca56b59a38a0c3c93029bd4a4\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\6911877ca56b59a38a0c3c93029bd4a4\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:22:5-39:19
+MERGED from [com.google.android.material:material:1.9.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\beaecc9d48e81ba89767d48befcf7f9c\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.material:material:1.9.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\beaecc9d48e81ba89767d48befcf7f9c\transformed\material-1.9.0\AndroidManifest.xml:24:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\ba3dc652d2a2da01a98c24d858c52c96\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\ba3dc652d2a2da01a98c24d858c52c96\transformed\constraintlayout-2.1.4\AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\e39c48a1bd6f9d9a84fafcaeee696a42\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\e39c48a1bd6f9d9a84fafcaeee696a42\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:21:5-20
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\1f55f61a439417bb645b2c8f049a188d\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\1f55f61a439417bb645b2c8f049a188d\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a3deca5598a7488f85e18d4e65167bf7\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a3deca5598a7488f85e18d4e65167bf7\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:7:5-8:19
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\aef65314d54dc608dd8e21abcb1703a5\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\aef65314d54dc608dd8e21abcb1703a5\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\f106ad32256d327d1250e073800756d8\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\f106ad32256d327d1250e073800756d8\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:20:5-24:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\38f2e3cabd735e65fb701e4194c8b5af\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\38f2e3cabd735e65fb701e4194c8b5af\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\ef738f7e3efd4ac7b1814f35e52b2ef2\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\ef738f7e3efd4ac7b1814f35e52b2ef2\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:23:5-33:19
+MERGED from [androidx.window:window:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\792189a2d6e07d1734445c5778b04c2d\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\792189a2d6e07d1734445c5778b04c2d\transformed\jetified-window-1.0.0\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.13.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\94827d74ee8f588af7d1a337c27f40a9\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.core:core:1.13.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\94827d74ee8f588af7d1a337c27f40a9\transformed\core-1.13.0\AndroidManifest.xml:28:5-89
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:23:5-53:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\d5a03fd48a91147e9c25abaa2fd44fe3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\d5a03fd48a91147e9c25abaa2fd44fe3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:25:5-31:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\e940ebb240c33d15b87307a47022ef22\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\e940ebb240c33d15b87307a47022ef22\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:extractNativeLibs
+		INJECTED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.13.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\94827d74ee8f588af7d1a337c27f40a9\transformed\core-1.13.0\AndroidManifest.xml:28:18-86
+	android:supportsRtl
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:12:9-35
+	android:label
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:10:9-41
+	android:roundIcon
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:11:9-55
+	android:icon
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:9:9-44
+	android:allowBackup
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:8:9-35
+	android:theme
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:13:9-56
+activity#com.capstone.pan.view.journal.detail.DetailJournalActivity
+ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:14:9-16:40
+	android:exported
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:15:13-86
+activity#com.capstone.pan.view.journal.list.ListJournalActivity
+ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:17:9-19:40
+	android:exported
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:19:13-37
+	android:name
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:18:13-82
+activity#com.capstone.pan.view.condition.ConditionActivity
+ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:20:9-22:40
+	android:exported
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:22:13-37
+	android:name
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:21:13-77
+activity#com.capstone.pan.MainActivity
+ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:23:9-25:39
+	android:exported
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:25:13-36
+	android:name
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:24:13-57
+activity#com.capstone.pan.view.welcome.WelcomeActivity
+ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:26:9-28:39
+	android:exported
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:27:13-73
+activity#com.capstone.pan.view.splash.SplashActivity
+ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:29:9-37:20
+	android:exported
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:31:13-36
+	android:name
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:30:13-71
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:32:13-36:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:33:17-69
+	android:name
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:33:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:35:17-77
+	android:name
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:35:27-74
+activity#com.capstone.pan.view.signup.SignupActivity
+ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:38:9-40:40
+	android:exported
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:39:13-71
+activity#com.capstone.pan.view.login.LoginActivity
+ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:41:9-43:40
+	android:exported
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:43:13-37
+	android:name
+		ADDED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml:42:13-69
+uses-sdk
+INJECTED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml
+MERGED from [androidx.databinding:viewbinding:8.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\0c65c03a7599157216a8ec2ea34b401c\transformed\jetified-viewbinding-8.1.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.databinding:viewbinding:8.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\0c65c03a7599157216a8ec2ea34b401c\transformed\jetified-viewbinding-8.1.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a87a3b753b9754c1d80641950a6cffc4\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a87a3b753b9754c1d80641950a6cffc4\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\f84196ca26928fc34d22e6d286ec3f12\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\f84196ca26928fc34d22e6d286ec3f12\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\6911877ca56b59a38a0c3c93029bd4a4\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\6911877ca56b59a38a0c3c93029bd4a4\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:19:5-44
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\460f4d619a0831bf6d624d1d6552d3d7\transformed\jetified-datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore-preferences:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\460f4d619a0831bf6d624d1d6552d3d7\transformed\jetified-datastore-preferences-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\05ff5e320e96835b1afd5c7410ad7c19\transformed\jetified-datastore-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.datastore:datastore:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\05ff5e320e96835b1afd5c7410ad7c19\transformed\jetified-datastore-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.navigation:navigation-common:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\6670eeaf383c135edca1cc382e46596b\transformed\navigation-common-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\6670eeaf383c135edca1cc382e46596b\transformed\navigation-common-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\eea5afc04d8c00af58239caa28608b0a\transformed\navigation-common-ktx-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-common-ktx:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\eea5afc04d8c00af58239caa28608b0a\transformed\navigation-common-ktx-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a08cfef57a4dcb0e2890d81a3bbd13f5\transformed\navigation-runtime-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a08cfef57a4dcb0e2890d81a3bbd13f5\transformed\navigation-runtime-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\5fe74ac758297af92f0b56553dc1a0eb\transformed\navigation-runtime-ktx-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-runtime-ktx:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\5fe74ac758297af92f0b56553dc1a0eb\transformed\navigation-runtime-ktx-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\161cb04bba9e563bf33296f28c2b60f0\transformed\navigation-fragment-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\161cb04bba9e563bf33296f28c2b60f0\transformed\navigation-fragment-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\1d9673db0a35699ff8cafb1391d809e0\transformed\navigation-fragment-ktx-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-fragment-ktx:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\1d9673db0a35699ff8cafb1391d809e0\transformed\navigation-fragment-ktx-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\2d7d393f6bc5d2fe1e96f6e512bd4241\transformed\navigation-ui-ktx-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui-ktx:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\2d7d393f6bc5d2fe1e96f6e512bd4241\transformed\navigation-ui-ktx-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\1bb2a4665e284f3bc8a3f7e2b47dd353\transformed\navigation-ui-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.navigation:navigation-ui:2.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\1bb2a4665e284f3bc8a3f7e2b47dd353\transformed\navigation-ui-2.6.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.9.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\beaecc9d48e81ba89767d48befcf7f9c\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.android.material:material:1.9.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\beaecc9d48e81ba89767d48befcf7f9c\transformed\material-1.9.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\ba3dc652d2a2da01a98c24d858c52c96\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\ba3dc652d2a2da01a98c24d858c52c96\transformed\constraintlayout-2.1.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\25ee1406be50b21bfe16ca37f68efb35\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat-resources:1.6.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\25ee1406be50b21bfe16ca37f68efb35\transformed\jetified-appcompat-resources-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\c0d2fc3d4feadc677c42267f31514445\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.appcompat:appcompat:1.6.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\c0d2fc3d4feadc677c42267f31514445\transformed\appcompat-1.6.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a28239cc1dd3982ca86cc33052ee03b5\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-v4:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a28239cc1dd3982ca86cc33052ee03b5\transformed\legacy-support-v4-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\9659bc5484bb556882d7c827f4f06ba5\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\9659bc5484bb556882d7c827f4f06ba5\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\e39c48a1bd6f9d9a84fafcaeee696a42\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-appcheck-interop:17.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\e39c48a1bd6f9d9a84fafcaeee696a42\transformed\jetified-firebase-appcheck-interop-17.1.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\35766ba97ce3e649419559f460a5c60b\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-database-collection:18.0.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\35766ba97ce3e649419559f460a5c60b\transformed\jetified-firebase-database-collection-18.0.1\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\1f55f61a439417bb645b2c8f049a188d\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-base:18.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\1f55f61a439417bb645b2c8f049a188d\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a3deca5598a7488f85e18d4e65167bf7\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.firebase:firebase-auth-interop:20.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a3deca5598a7488f85e18d4e65167bf7\transformed\jetified-firebase-auth-interop-20.0.0\AndroidManifest.xml:5:5-44
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\aef65314d54dc608dd8e21abcb1703a5\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:18.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\aef65314d54dc608dd8e21abcb1703a5\transformed\jetified-play-services-tasks-18.1.0\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\f106ad32256d327d1250e073800756d8\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-basement:18.3.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\f106ad32256d327d1250e073800756d8\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:18:5-43
+MERGED from [androidx.fragment:fragment:1.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\fbb59be52750d821234f3dd231737393\transformed\fragment-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment:1.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\fbb59be52750d821234f3dd231737393\transformed\fragment-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\7a37a973002b46def3a7d19cb643cf9b\transformed\jetified-fragment-ktx-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.fragment:fragment-ktx:1.6.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\7a37a973002b46def3a7d19cb643cf9b\transformed\jetified-fragment-ktx-1.6.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\7eb7033be2e0b4e52e24c73e4baab56f\transformed\jetified-activity-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity-ktx:1.9.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\7eb7033be2e0b4e52e24c73e4baab56f\transformed\jetified-activity-ktx-1.9.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.activity:activity:1.9.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\c21de55553baa240087b282f0dc4a763\transformed\jetified-activity-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.9.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\c21de55553baa240087b282f0dc4a763\transformed\jetified-activity-1.9.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\66694220ce89c985676b6b6f0ad82153\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2-views-helper:1.2.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\66694220ce89c985676b6b6f0ad82153\transformed\jetified-emoji2-views-helper-1.2.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\38f2e3cabd735e65fb701e4194c8b5af\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\38f2e3cabd735e65fb701e4194c8b5af\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:21:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\04d6a9a135e5e87c319e20b99ac2fbb4\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-ui:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\04d6a9a135e5e87c319e20b99ac2fbb4\transformed\legacy-support-core-ui-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a8a37703ade5cf61a8260cf41378c6eb\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.1.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a8a37703ade5cf61a8260cf41378c6eb\transformed\drawerlayout-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\aae91345b8697b339fdf17e841628d62\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\aae91345b8697b339fdf17e841628d62\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\69785b496a62a237ff19cf6288e6bdae\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\69785b496a62a237ff19cf6288e6bdae\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\8742cccbcee47a76715212c43da74590\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\8742cccbcee47a76715212c43da74590\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\d283b24e2ecb85da2db140797b2c4f54\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\d283b24e2ecb85da2db140797b2c4f54\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\eb73c8b08f336f6a27a396d958eb5bf0\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.media:media:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\eb73c8b08f336f6a27a396d958eb5bf0\transformed\media-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\7af3552a117d60b00745226069612067\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\7af3552a117d60b00745226069612067\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\f50d117eaa1625920a4d47453d54a3bf\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\f50d117eaa1625920a4d47453d54a3bf\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\b55f159d3eea6b77fcaad3e58fca526a\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.slidingpanelayout:slidingpanelayout:1.2.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\b55f159d3eea6b77fcaad3e58fca526a\transformed\slidingpanelayout-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\0d5bc53360795c9ac9b820e460e812d7\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\0d5bc53360795c9ac9b820e460e812d7\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\bb602cecc2f9d601d86b498557ee6176\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\bb602cecc2f9d601d86b498557ee6176\transformed\customview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\0c7c39df91819dab0de24476132daf33\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate-ktx:1.2.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\0c7c39df91819dab0de24476132daf33\transformed\jetified-savedstate-ktx-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\0bf4c53bc7105cc6c53a764df9b67ac3\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.2.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\0bf4c53bc7105cc6c53a764df9b67ac3\transformed\jetified-savedstate-1.2.1\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\04cab5fe74cf2ab66da8e091e24e4235\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\04cab5fe74cf2ab66da8e091e24e4235\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\19d87e6391cc9ed4a04889e83a5b9db6\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\19d87e6391cc9ed4a04889e83a5b9db6\transformed\jetified-lifecycle-viewmodel-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\8f800cc513ddc82b4ac1e7d118b8261a\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\8f800cc513ddc82b4ac1e7d118b8261a\transformed\lifecycle-viewmodel-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\7b284f8edacf8f89b7219d4a209d872d\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime-ktx:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\7b284f8edacf8f89b7219d4a209d872d\transformed\jetified-lifecycle-runtime-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\ef738f7e3efd4ac7b1814f35e52b2ef2\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\ef738f7e3efd4ac7b1814f35e52b2ef2\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:21:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\2ac45f46ef6e3bb343d0dbfe5a6d7d9c\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core-ktx:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\2ac45f46ef6e3bb343d0dbfe5a6d7d9c\transformed\jetified-lifecycle-livedata-core-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a345e59902e867866a3fa46e8b426803\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a345e59902e867866a3fa46e8b426803\transformed\lifecycle-livedata-core-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\d2ec49efd4491d29d1b1b4cb253a8903\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\d2ec49efd4491d29d1b1b4cb253a8903\transformed\lifecycle-livedata-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\26f272bbabea5372ca266a243d8a662a\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\26f272bbabea5372ca266a243d8a662a\transformed\jetified-lifecycle-viewmodel-savedstate-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\7af8725918ffcb97d251972648aac70f\transformed\jetified-core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.core:core-ktx:1.13.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\7af8725918ffcb97d251972648aac70f\transformed\jetified-core-ktx-1.13.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\793f7bbffd488d6048f64ab562d60840\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.swiperefreshlayout:swiperefreshlayout:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\793f7bbffd488d6048f64ab562d60840\transformed\swiperefreshlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\c5c55c272026b014e5cd0df27d2d6561\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.asynclayoutinflater:asynclayoutinflater:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\c5c55c272026b014e5cd0df27d2d6561\transformed\asynclayoutinflater-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.4.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\542adcf040fcebf37208d38e7cbda306\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.4.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\542adcf040fcebf37208d38e7cbda306\transformed\transition-1.4.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\792189a2d6e07d1734445c5778b04c2d\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\792189a2d6e07d1734445c5778b04c2d\transformed\jetified-window-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.13.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\94827d74ee8f588af7d1a337c27f40a9\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.13.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\94827d74ee8f588af7d1a337c27f40a9\transformed\core-1.13.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\c32dfb4c8c518b3ce2efa5c4c01ef0f6\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\c32dfb4c8c518b3ce2efa5c4c01ef0f6\transformed\lifecycle-runtime-2.6.2\AndroidManifest.xml:5:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\e1ac1781f636bff912bf6baf5f4b2fda\transformed\jetified-lifecycle-livedata-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-ktx:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\e1ac1781f636bff912bf6baf5f4b2fda\transformed\jetified-lifecycle-livedata-ktx-2.6.2\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a9740145088730b23830c6c32f56cb2e\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a9740145088730b23830c6c32f56cb2e\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\7df5a6849eb7bfb50a1ffd70b3ed604a\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\7df5a6849eb7bfb50a1ffd70b3ed604a\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:21:5-44
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\d5a03fd48a91147e9c25abaa2fd44fe3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\d5a03fd48a91147e9c25abaa2fd44fe3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:21:5-23:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a2a26d71e2aa105d09e92583d61011b6\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a2a26d71e2aa105d09e92583d61011b6\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\0e8f22bef4ab64dd727c9ecce9272396\transformed\jetified-firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [com.google.firebase:firebase-components:18.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\0e8f22bef4ab64dd727c9ecce9272396\transformed\jetified-firebase-components-18.0.0\AndroidManifest.xml:18:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\e940ebb240c33d15b87307a47022ef22\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\e940ebb240c33d15b87307a47022ef22\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a647aeeb20885f3628e84bd934278897\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a647aeeb20885f3628e84bd934278897\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\17a3d0467e36d6ff93ed6d3c68723b4a\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\17a3d0467e36d6ff93ed6d3c68723b4a\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\3825c569ac713fd73e8ce08035fda99f\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\3825c569ac713fd73e8ce08035fda99f\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a74729029d3eb0f06236d966a52f0f2c\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a74729029d3eb0f06236d966a52f0f2c\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\deae65c476bf3f27565dbfb925bcdf3e\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.2.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\deae65c476bf3f27565dbfb925bcdf3e\transformed\core-runtime-2.2.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\74eca582dffc7f3dff7b36bd713b46cb\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.4.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\74eca582dffc7f3dff7b36bd713b46cb\transformed\jetified-annotation-experimental-1.4.0\AndroidManifest.xml:5:5-44
+	android:targetSdkVersion
+		INJECTED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\ASUS\OneDrive\Documents\kuliahan\Bangkit\Final\pan - Copy\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a87a3b753b9754c1d80641950a6cffc4\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:22:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a87a3b753b9754c1d80641950a6cffc4\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:22:22-76
+service#com.google.firebase.components.ComponentDiscoveryService
+ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a87a3b753b9754c1d80641950a6cffc4\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:26:9-35:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\f84196ca26928fc34d22e6d286ec3f12\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\f84196ca26928fc34d22e6d286ec3f12\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:9:9-15:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\6911877ca56b59a38a0c3c93029bd4a4\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
+MERGED from [com.google.firebase:firebase-common:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\6911877ca56b59a38a0c3c93029bd4a4\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:30:9-38:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a87a3b753b9754c1d80641950a6cffc4\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:28:13-37
+	tools:targetApi
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\6911877ca56b59a38a0c3c93029bd4a4\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:34:13-32
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\6911877ca56b59a38a0c3c93029bd4a4\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:32:13-43
+	android:name
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a87a3b753b9754c1d80641950a6cffc4\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:27:13-84
+meta-data#com.google.firebase.components:com.google.firebase.database.FirebaseDatabaseKtxRegistrar
+ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a87a3b753b9754c1d80641950a6cffc4\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:29:13-31:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a87a3b753b9754c1d80641950a6cffc4\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:31:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a87a3b753b9754c1d80641950a6cffc4\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:30:17-120
+meta-data#com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar
+ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a87a3b753b9754c1d80641950a6cffc4\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:32:13-34:85
+	android:value
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a87a3b753b9754c1d80641950a6cffc4\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:34:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-database:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\a87a3b753b9754c1d80641950a6cffc4\transformed\jetified-firebase-database-21.0.0\AndroidManifest.xml:33:17-109
+meta-data#com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonLegacyRegistrar
+ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\f84196ca26928fc34d22e6d286ec3f12\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:12:13-14:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\f84196ca26928fc34d22e6d286ec3f12\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:14:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common-ktx:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\f84196ca26928fc34d22e6d286ec3f12\transformed\jetified-firebase-common-ktx-21.0.0\AndroidManifest.xml:13:17-116
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\6911877ca56b59a38a0c3c93029bd4a4\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:23:9-28:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\6911877ca56b59a38a0c3c93029bd4a4\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:25:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\6911877ca56b59a38a0c3c93029bd4a4\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:27:13-37
+	android:directBootAware
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\6911877ca56b59a38a0c3c93029bd4a4\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:26:13-43
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\6911877ca56b59a38a0c3c93029bd4a4\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\6911877ca56b59a38a0c3c93029bd4a4\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:24:13-77
+meta-data#com.google.firebase.components:com.google.firebase.FirebaseCommonKtxRegistrar
+ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\6911877ca56b59a38a0c3c93029bd4a4\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:35:13-37:85
+	android:value
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\6911877ca56b59a38a0c3c93029bd4a4\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:37:17-82
+	android:name
+		ADDED from [com.google.firebase:firebase-common:21.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\6911877ca56b59a38a0c3c93029bd4a4\transformed\jetified-firebase-common-21.0.0\AndroidManifest.xml:36:17-109
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\1f55f61a439417bb645b2c8f049a188d\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\1f55f61a439417bb645b2c8f049a188d\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\1f55f61a439417bb645b2c8f049a188d\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:18.1.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\1f55f61a439417bb645b2c8f049a188d\transformed\jetified-play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\f106ad32256d327d1250e073800756d8\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\f106ad32256d327d1250e073800756d8\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:18.3.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\f106ad32256d327d1250e073800756d8\transformed\jetified-play-services-basement-18.3.0\AndroidManifest.xml:22:13-58
+provider#androidx.startup.InitializationProvider
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\38f2e3cabd735e65fb701e4194c8b5af\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\ef738f7e3efd4ac7b1814f35e52b2ef2\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\ef738f7e3efd4ac7b1814f35e52b2ef2\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:24:9-32:20
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\d5a03fd48a91147e9c25abaa2fd44fe3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+MERGED from [androidx.startup:startup-runtime:1.1.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\d5a03fd48a91147e9c25abaa2fd44fe3\transformed\jetified-startup-runtime-1.1.1\AndroidManifest.xml:26:9-30:34
+	tools:node
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\38f2e3cabd735e65fb701e4194c8b5af\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:28:13-31
+	android:authorities
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\38f2e3cabd735e65fb701e4194c8b5af\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+	android:exported
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\38f2e3cabd735e65fb701e4194c8b5af\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\38f2e3cabd735e65fb701e4194c8b5af\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+meta-data#androidx.emoji2.text.EmojiCompatInitializer
+ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\38f2e3cabd735e65fb701e4194c8b5af\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\38f2e3cabd735e65fb701e4194c8b5af\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.emoji2:emoji2:1.2.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\38f2e3cabd735e65fb701e4194c8b5af\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+meta-data#androidx.lifecycle.ProcessLifecycleInitializer
+ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\ef738f7e3efd4ac7b1814f35e52b2ef2\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\ef738f7e3efd4ac7b1814f35e52b2ef2\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.lifecycle:lifecycle-process:2.6.2] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\ef738f7e3efd4ac7b1814f35e52b2ef2\transformed\jetified-lifecycle-process-2.6.2\AndroidManifest.xml:30:17-78
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\792189a2d6e07d1734445c5778b04c2d\transformed\jetified-window-1.0.0\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\792189a2d6e07d1734445c5778b04c2d\transformed\jetified-window-1.0.0\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\792189a2d6e07d1734445c5778b04c2d\transformed\jetified-window-1.0.0\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\792189a2d6e07d1734445c5778b04c2d\transformed\jetified-window-1.0.0\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\792189a2d6e07d1734445c5778b04c2d\transformed\jetified-window-1.0.0\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\792189a2d6e07d1734445c5778b04c2d\transformed\jetified-window-1.0.0\AndroidManifest.xml:29:13-51
+permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\94827d74ee8f588af7d1a337c27f40a9\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\94827d74ee8f588af7d1a337c27f40a9\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\94827d74ee8f588af7d1a337c27f40a9\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+permission#com.dicoding.picodiploma.pan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\94827d74ee8f588af7d1a337c27f40a9\transformed\core-1.13.0\AndroidManifest.xml:22:5-24:47
+	android:protectionLevel
+		ADDED from [androidx.core:core:1.13.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\94827d74ee8f588af7d1a337c27f40a9\transformed\core-1.13.0\AndroidManifest.xml:24:9-44
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\94827d74ee8f588af7d1a337c27f40a9\transformed\core-1.13.0\AndroidManifest.xml:23:9-81
+uses-permission#${applicationId}.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\94827d74ee8f588af7d1a337c27f40a9\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\94827d74ee8f588af7d1a337c27f40a9\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+uses-permission#com.dicoding.picodiploma.pan.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION
+ADDED from [androidx.core:core:1.13.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\94827d74ee8f588af7d1a337c27f40a9\transformed\core-1.13.0\AndroidManifest.xml:26:5-97
+	android:name
+		ADDED from [androidx.core:core:1.13.0] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\94827d74ee8f588af7d1a337c27f40a9\transformed\core-1.13.0\AndroidManifest.xml:26:22-94
+meta-data#androidx.profileinstaller.ProfileInstallerInitializer
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:29:13-31:52
+	android:value
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:31:17-49
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:30:17-85
+receiver#androidx.profileinstaller.ProfileInstallReceiver
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:34:9-52:20
+	android:enabled
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:37:13-35
+	android:exported
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:38:13-36
+	android:permission
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:39:13-57
+	android:directBootAware
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:36:13-44
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:35:13-76
+intent-filter#action:name:androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:40:13-42:29
+action#androidx.profileinstaller.action.INSTALL_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:17-91
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:41:25-88
+intent-filter#action:name:androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:43:13-45:29
+action#androidx.profileinstaller.action.SKIP_FILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:17-85
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:44:25-82
+intent-filter#action:name:androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:46:13-48:29
+action#androidx.profileinstaller.action.SAVE_PROFILE
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:17-88
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:47:25-85
+intent-filter#action:name:androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:49:13-51:29
+action#androidx.profileinstaller.action.BENCHMARK_OPERATION
+ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:17-95
+	android:name
+		ADDED from [androidx.profileinstaller:profileinstaller:1.3.1] C:\Program Files\Android\Android Studio\jbr\bin\19\caches\transforms-3\baecc8b5d8173434ede50f2aeb16be9e\transformed\jetified-profileinstaller-1.3.1\AndroidManifest.xml:50:25-92
