@@ -1,11 +1,11 @@
 # SERVER-API
 ## This is a Node.js server API with user authentication, journal, chat functionalities, and more.
-You need to done the steps from the ml-api repository first.
+You need to done the steps from the [here](https://github.com/uswa193/pan-product-track/tree/ml-api) repository first.
 
 ## Features
 - User signup and login with JWT authentication
 - User profile editing
-- Journal management (add and retrieve journals)
+- Journal management (add and see journals)
 - Chat functionality
 - Emotion classification and activity recommendation
   
@@ -71,5 +71,4 @@ Follow these instructions to set up and run the server on your local machine.
 
     The server will run in the localhost with 3000 port (by default), open `http://localhost:3000` in your browser and you can test the API endpoints using tools like Postman.
 
-You can see the full API documentation that we use for the mobile app here : 
-[api server documentation](https://documenter.getpostman.com/view/35179868/2sA3XTf1JC)
+You can see the full API documentation that we use for the mobile app [here](https://documenter.getpostman.com/view/35179868/2sA3XTf1JC)
