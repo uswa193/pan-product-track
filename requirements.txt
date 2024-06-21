@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+google-cloud-firestore
+google-generativeai
+transformers
+tensorflow
+textwrap3
+python-dotenv
+jose
