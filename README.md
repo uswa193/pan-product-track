@@ -23,12 +23,12 @@ Follow these steps to set up and run the application:
 2. **Download the Model Files**
 
     Download the pre-trained model files and place them in the respective directories:
-    - Download the emotion classification model files and place them in the `./Model` directory.
-    - Download the tokenizer files and place them in the `./tokenizer` directory.
+    - Download the emotion classification model folder from branch ml-model /Emotion Classification/Model and place them in the root directory.
+    - Download the tokenizer folder from branch ml-model /Emotion Classification/Tokenizer and place them in the root directory.
 
 3. **Set Up Google Cloud Firestore**
 
-    This application uses Firebase Firestore for storing chat history and emotion analysis results. Follow these steps to set up Firestore:
+    This application uses Firebase Firestore for storing users data and emotion analysis results. Follow these steps to set up Firestore:
     - Create a Firebase project in the [Firebase Console](https://console.firebase.google.com/).
     - Set up Firestore in your Firebase project.
     - Generate a service account key from your Firebase project settings and download the JSON credentials file.
@@ -66,3 +66,39 @@ Follow these steps to set up and run the application:
 8. **Access the API**
 
     By default, the server will run on `http://localhost:8000`. You can test the API endpoints using tools like Postman or directly via the browser.
+
+### API Endpoints
+
+- **POST /chat/{user_id}**
+  - Description: Processes user input, saves chat history, generates a response using Google Generative AI, performs emotion analysis, and saves the result to Firestore.
+  - Request Body: 
+    ```json
+    {
+      "text": "your_text_here"
+    }
+    ```
+  - Response: 
+    ```json
+    {
+      "chat_response": "response_text_here"
+    }
+    ```
+
+- **GET /classify_emotion**
+  - Description: Retrieves the latest emotion analysis result from Firestore.
+  - Response: 
+    ```json
+    {
+      "emotion": "detected_emotion",
+      "emotion_probability": "emotion_probability_score"
+    }
+    ```
+
+- **GET /recommend_activity/{user_id}**
+  - Description: Recommends activities based on the latest emotion analysis result for the given user.
+  - Response: 
+    ```json
+    {
+      "recommended_activities": ["activity1", "activity2", "activity3"]
+    }
+    ```
