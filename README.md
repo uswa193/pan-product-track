@@ -63,7 +63,7 @@ Follow these instructions to set up and run the server on your local machine.
 
 ### Running the Server
 
-1. Start the server:
+Start the server:
 
     ```bash
     npm run start
