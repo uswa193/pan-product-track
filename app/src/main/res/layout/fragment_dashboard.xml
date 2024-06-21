@@ -39,6 +39,17 @@
         app:layout_constraintTop_toBottomOf="@id/textView"
         app:layout_constraintBottom_toTopOf="@id/cardView" />
 
+    <ImageButton
+        android:id="@+id/btnLogout"
+        android:layout_width="52dp"
+        android:layout_height="52dp"
+        android:layout_marginEnd="20dp"
+        android:background="@android:color/transparent"
+        android:src="@drawable/ic_logout"
+        app:layout_constraintBottom_toTopOf="@+id/cardView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
 
     <androidx.cardview.widget.CardView
         android:id="@+id/cardView"
@@ -79,6 +90,7 @@
                 android:textSize="16sp" />
 
             <Button
+                android:id="@+id/chatButton"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="16dp"
@@ -92,7 +104,8 @@
         android:layout_height="wrap_content"
         android:src="@drawable/pan_logo_1"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        android:contentDescription="shape" />
 
     <ImageView
         android:layout_width="wrap_content"
@@ -109,17 +122,19 @@
         app:layout_constraintGuide_begin="295dp" />
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView2"
+        android:id="@+id/emotionCheck"
         android:layout_marginTop="20dp"
         android:layout_width="wrap_content"
         android:layout_height="156dp"
         android:layout_margin="8dp"
+        android:clickable="true"
         android:backgroundTint="@color/PAN2"
         app:cardCornerRadius="16dp"
         app:cardElevation="4dp"
         app:layout_constraintEnd_toStartOf="@+id/cardView4"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/guideline">
+        app:layout_constraintTop_toBottomOf="@id/guideline"
+        android:focusable="true">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -154,7 +169,7 @@
         app:cardCornerRadius="16dp"
         app:cardElevation="4dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/cardView2"
+        app:layout_constraintStart_toEndOf="@+id/emotionCheck"
         app:layout_constraintTop_toBottomOf="@id/guideline">
         <LinearLayout
             android:layout_width="match_parent"
@@ -181,7 +196,8 @@
     </androidx.cardview.widget.CardView>
 
     <androidx.cardview.widget.CardView
-        android:id="@+id/cardView3"
+        android:id="@+id/journalCheck"
+        android:clickable="true"
         android:layout_width="match_parent"
         android:layout_height="156dp"
         android:layout_margin="20dp"
@@ -192,7 +208,8 @@
         app:cardElevation="4dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/cardView2">
+        app:layout_constraintTop_toBottomOf="@id/emotionCheck"
+        android:focusable="true">
 
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"

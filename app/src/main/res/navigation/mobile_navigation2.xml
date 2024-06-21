@@ -7,25 +7,25 @@
 
     <fragment
         android:id="@+id/navigation_journal"
-        android:name="com.dicoding.picodiploma.pan.view.journal.JournalFragment"
+        android:name="com.capstone.pan.view.journal.create.JournalFragment"
         android:label="@string/title_home"
         tools:layout="@layout/fragment_journal" />
 
     <fragment
         android:id="@+id/navigation_dashboard"
-        android:name="com.dicoding.picodiploma.pan.view.dashboard.DashboardFragment"
+        android:name="com.capstone.pan.view.dashboard.DashboardFragment"
         android:label="@string/title_dashboard"
         tools:layout="@layout/fragment_dashboard" />
 
     <fragment
         android:id="@+id/navigation_profile"
-        android:name="com.dicoding.picodiploma.pan.view.chat.ChatFragment"
+        android:name="com.capstone.pan.view.profile.ProfileEditFragment"
         android:label="@string/title_notifications"
         tools:layout="@layout/fragment_profile" />
 
     <fragment
         android:id="@+id/navigation_chat"
-        android:name="com.dicoding.picodiploma.pan.view.ChatFragment"
+        android:name="com.capstone.pan.view.chat.ChatFragment"
         android:label="@string/title_chat"
         tools:layout="@layout/fragment_chat" />
 

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">LoginWithAnimation</string>
+    <string name="app_name">PAN</string>
     <string name="signup">Daftar</string>
     <string name="login">Masuk</string>
     <string name="message_welcome_page">Temukan teman virtual baru dalam bentuk hewan peliharaan yang siap mendengarkan dan berbicara dengan kamu</string>
@@ -64,6 +64,11 @@
     <string name="hi">Hi, </string>
     <string name="kondisi_mu_sekarangr">Kondisi mu sekarang</string>
     <string name="cinta">cinta</string>
+    <string name="date">Date</string>
+    <string name="emotion">Emotion</string>
+    <string name="this_is_a_long_note_that_exceeds_20_characters_and_will_be_truncated_with">This is a long note that exceeds 20 characters and will be truncated with ....</string>
+    <string name="note_jrnl">Aku hari ini cape banget dibully smaa temen kelas aku dan itu bikin aku sedih banget</string>
+    <string name="pilih_tanggal">Pilih Tanggal</string>
 
 
 </resources>

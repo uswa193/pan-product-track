@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.signup.SignupActivity">
+    tools:context="com.capstone.pan.view.signup.SignupActivity">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
@@ -123,7 +123,7 @@
             app:startIconDrawable="@drawable/ic_baseline_email_24"
             tools:alpha="100">
 
-            <com.dicoding.picodiploma.pan.component.EmailTextField
+            <com.capstone.pan.component.EmailTextField
                 android:id="@+id/emailEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
@@ -160,7 +160,7 @@
             app:startIconDrawable="@drawable/ic_baseline_lock_24"
             tools:alpha="100">
 
-            <com.dicoding.picodiploma.pan.component.PasswordTextField
+            <com.capstone.pan.component.PasswordTextField
                 android:id="@+id/passwordEditText"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"

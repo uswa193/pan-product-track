@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".view.login.LoginActivity">
+    tools:context="com.capstone.pan.view.login.LoginActivity">
 
     <TextView
         android:id="@+id/titleTextView"
@@ -103,7 +103,7 @@
         app:startIconDrawable="@drawable/ic_baseline_lock_24"
         tools:alpha="100">
 
-        <com.dicoding.picodiploma.pan.component.PasswordTextField
+        <com.capstone.pan.component.PasswordTextField
             android:id="@+id/passwordEditText"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_plus_main"
@@ -9,16 +12,22 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LoginWithAnimation">
         <activity
-            android:name=".view.condition.ConditionActivity"
+            android:name="com.capstone.pan.view.journal.detail.DetailJournalActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name="com.capstone.pan.view.journal.list.ListJournalActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.capstone.pan.view.condition.ConditionActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.capstone.pan.MainActivity"
             android:exported="true" />
         <activity
-            android:name=".view.welcome.WelcomeActivity"
+            android:name="com.capstone.pan.view.welcome.WelcomeActivity"
             android:exported="true" />
         <activity
-            android:name=".view.splash.SplashActivity"
+            android:name="com.capstone.pan.view.splash.SplashActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -27,10 +36,10 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".view.signup.SignupActivity"
+            android:name="com.capstone.pan.view.signup.SignupActivity"
             android:exported="false" />
         <activity
-            android:name=".view.login.LoginActivity"
+            android:name="com.capstone.pan.view.login.LoginActivity"
             android:exported="false" />
     </application>
 

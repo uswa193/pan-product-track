@@ -8,10 +8,10 @@ android {
     compileSdk = 34
 
     defaultConfig {
-        buildConfigField("String", "BASE_URL", "\"https://my-server-bjukyhsk7q-et.a.run.app\"")
+        buildConfigField("String", "BASE_URL", "\"https://my-server-fix-bjukyhsk7q-et.a.run.app\"")
 
         applicationId = "com.dicoding.picodiploma.pan"
-        minSdk = 21
+        minSdk = 25
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -54,7 +54,6 @@ dependencies {
     testImplementation("junit:junit:4.13.2")
     androidTestImplementation("androidx.test.ext:junit:1.1.5")
     androidTestImplementation("androidx.test.espresso:espresso-core:3.5.1")
-
     implementation("androidx.datastore:datastore-preferences:1.0.0")
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.6.1")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.6.1")
