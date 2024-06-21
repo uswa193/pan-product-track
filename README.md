@@ -1,10 +1,10 @@
 ![logo pan](https://github.com/uswa193/pan-product-track/assets/88176934/ec0cb8d2-a076-486d-a543-2de5a30577bc)
 
-# PAN
-
-## Bangkit 2022 Capstone Team: C241-PS465
-
-## Team Members
+<div style="text-align: center;">
+  <h1><strong>PAN</strong></h1>
+  <h2><strong>Bangkit 2022 Capstone Team: C241-PS465</strong></h2>
+  <h2><strong>Team Members</strong></h2>
+</div>
 
 | Nama                          | ID            | Path               |
 | ------------------------------|:-------------:| :-----------------:|
