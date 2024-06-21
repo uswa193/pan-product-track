@@ -1,10 +1,10 @@
 fastapi
 uvicorn
-pydantic
 google-cloud-firestore
-google-generativeai
 transformers
 tensorflow
-textwrap3
+tf-keras
+pydantic
 python-dotenv
-jose
+python-jose
+google-generativeai
